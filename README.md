@@ -17,8 +17,8 @@ Escreva testes unitários: Desenvolva testes unitários para verificar o comport
 
 Refatore regularmente: Esteja disposto a refatorar seu código regularmente para melhorar sua qualidade. Identifique oportunidades de melhoria e faça ajustes contínuos.
 
-## Livro
-![Imagem](https://drive.google.com/file/d/1l1Z0ZmjhVYL9vmLAciJhsuA-bRAo_6YF/view?usp=sharing)
+## Imagem
+https://drive.google.com/file/d/1l1Z0ZmjhVYL9vmLAciJhsuA-bRAo_6YF/view?usp=sharing
 
 # Autor
 Thiago Reis Lima
