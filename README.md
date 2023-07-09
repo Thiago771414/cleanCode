@@ -17,8 +17,49 @@ Escreva testes unitários: Desenvolva testes unitários para verificar o comport
 
 Refatore regularmente: Esteja disposto a refatorar seu código regularmente para melhorar sua qualidade. Identifique oportunidades de melhoria e faça ajustes contínuos.
 
-## Imagem
-https://drive.google.com/file/d/1l1Z0ZmjhVYL9vmLAciJhsuA-bRAo_6YF/view?usp=sharing
+```csharp
+using System;
+
+namespace CleanCodeExample
+{
+    class Program
+    {
+        static void Main()
+        {
+            var calculator = new Calculator();
+
+            var result = calculator.Add(5, 7);
+            Console.WriteLine($"The sum is: {result}");
+
+            var isValid = InputValidator.Validate("OpenAI");
+            Console.WriteLine($"Is valid input? {isValid}");
+
+            Console.ReadLine();
+        }
+    }
+
+    class Calculator
+    {
+        public int Add(int a, int b)
+        {
+            return a + b;
+        }
+    }
+
+    class InputValidator
+    {
+        public static bool Validate(string input)
+        {
+            if (string.IsNullOrWhiteSpace(input))
+            {
+                return false;
+            }
+
+            return input.Length >= 5;
+        }
+    }
+}
+```
 
 # Autor
 Thiago Reis Lima
